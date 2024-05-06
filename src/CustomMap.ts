@@ -31,6 +31,10 @@ export class CustomMap {
                     title: 'Hello World!',
                     subtitle: 'kind and bright',
                     color: 'blue',
+                    popup: {
+                        content: 'Popup on the default marker',
+                        position: 'left',
+                    },
                 })
             );
         });
